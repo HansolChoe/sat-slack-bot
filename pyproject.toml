@@ -12,17 +12,17 @@ authors = [
 ]
 requires-python = ">=3.12,<4.0"
 dependencies = [
-  "aiohttp>=3.11.14",
-  "fastapi[all] (>=0.115.6)",
-  "gunicorn (>=23.0.0)",
-  "langchain>=0.3.21",
-  "langchain-community>=0.3.20",
-  "litellm>=1.65.0",
-  "poethepoet (>=0.32.1)",
-  "python-dotenv>=1.1.0",
-  "slack-bolt>=1.23.0",
-  "slack-sdk>=3.35.0",
-  "typer (>=0.15.1)",
+  "aiohttp>=3.13.5",
+  "fastapi[all] (>=0.136.1)",
+  "gunicorn (>=25.3.0)",
+  "langchain>=1.2.17",
+  "langchain-community>=0.4.1",
+  "litellm>=1.83.14",
+  "poethepoet (>=0.45.0)",
+  "python-dotenv>=1.2.2",
+  "slack-bolt>=1.28.0",
+  "slack-sdk>=3.41.0",
+  "typer (>=0.25.1)",
 ]
 
 [project.urls]  # https://packaging.python.org/en/latest/specifications/well-known-project-urls/#well-known-labels
